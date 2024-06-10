@@ -16,7 +16,6 @@ public class ArrayListDemo {
             String name = scanner.nextLine();
             System.out.print("Enter Age: ");
             int age = scanner.nextInt();
-            scanner.nextLine();
             System.out.print("Enter Address: ");
             String address = scanner.nextLine();
             persons.add(new Person(name, age, address));
@@ -56,7 +55,6 @@ public class ArrayListDemo {
         System.out.println("\nSearching Elements: ");
         System.out.println("Enter the criteria you want to search for the person: \n1. Name \n2. Age \n3. Address");
         int criteria = scanner.nextInt();
-        scanner.nextLine();
         int count = 0;
         switch (criteria) {
             case 1:
@@ -95,7 +93,7 @@ public class ArrayListDemo {
     }
     private static void searchName(ArrayList<Person> persons, Scanner scanner, int count) {
         System.out.println("Enter the name of the person: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         int index = 0;
         for (Person person : persons) {
             if (person.getName().equals(name)) {
