@@ -70,7 +70,7 @@ public class ArrayListDemo {
         }
     }
     private static void searchAddress(ArrayList<Person> persons, Scanner scanner, int count) {
-        System.out.print("Enter the address of the person: ");
+        System.out.println("Enter the address of the person: ");
         String address = scanner.nextLine();
         int index = 0;
         for (Person person : persons) {

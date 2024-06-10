@@ -10,7 +10,7 @@ public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayList<Person> persons = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 1; i++) {
             System.out.println("Enter the details of person " + (i + 1) + ": ");
             System.out.print("Enter Name: ");
             String name = scanner.nextLine();
@@ -56,7 +56,6 @@ public class ArrayListDemo {
         System.out.println("\nSearching Elements: ");
         System.out.println("Enter the criteria you want to search for the person: \n1. Name \n2. Age \n3. Address");
         int criteria = scanner.nextInt();
-        scanner.nextLine();
         int count = 0;
         switch (criteria) {
             case 1:
@@ -70,7 +69,7 @@ public class ArrayListDemo {
         }
     }
     private static void searchAddress(ArrayList<Person> persons, Scanner scanner, int count) {
-        System.out.print("Enter the address of the person: ");
+        System.out.println("Enter the address of the person: ");
         String address = scanner.nextLine();
         int index = 0;
         for (Person person : persons) {
