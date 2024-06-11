@@ -13,11 +13,11 @@ public class ArrayListDemo {
         for (int i = 0; i < 5; i++) {
             System.out.println("Enter the details of person " + (i + 1) + ": ");
             System.out.print("Enter Name: ");
-            String name = scanner.next();
+            String name = scanner.nextLine();
             System.out.print("Enter Age: ");
             int age = scanner.nextInt();
             System.out.print("Enter Address: ");
-            String address = scanner.next();
+            String address = scanner.nextLine();
             persons.add(new Person(name, age, address));
         }
         manipulateArray(persons, scanner);
@@ -69,7 +69,7 @@ public class ArrayListDemo {
     }
     private static void searchAddress(ArrayList<Person> persons, Scanner scanner, int count) {
         System.out.print("Enter the address of the person: ");
-        String address = scanner.next();
+        String address = scanner.nextLine();
         int index = 0;
         for (Person person : persons) {
             if (person.getAddress().equals(address)) {
@@ -93,7 +93,7 @@ public class ArrayListDemo {
     }
     private static void searchName(ArrayList<Person> persons, Scanner scanner, int count) {
         System.out.println("Enter the name of the person: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         int index = 0;
         for (Person person : persons) {
             if (person.getName().equals(name)) {
@@ -130,11 +130,12 @@ public class ArrayListDemo {
         System.out.println("\nUser - Change the details of the second Person object in the ArrayList.");
         System.out.println("Please enter the details to update the second person: ");
         System.out.print("Enter Name: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         System.out.print("Enter Age: ");
         int age = scanner.nextInt();
+        scanner.nextLine();
         System.out.print("Enter Address: ");
-        String address = scanner.next();
+        String address = scanner.nextLine();
         persons.set(1, new Person(name, age, address));
         printAllPersons(persons);
     }
@@ -173,11 +174,12 @@ public class ArrayListDemo {
     private static void addDetails(int i, ArrayList<Person> persons, Scanner scanner) {
         System.out.println("Enter the details of the person: ");
         System.out.print("Enter Name: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         System.out.print("Enter Age: ");
         int age = scanner.nextInt();
+        scanner.nextLine();
         System.out.print("Enter Address: ");
-        String address = scanner.next();
+        String address = scanner.nextLine();
         persons.add(i, new Person(name, age, address));
     }
 }
