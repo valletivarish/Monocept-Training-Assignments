@@ -252,10 +252,11 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_upCTODOXEe-mJLhdCFyCNg" containerData="8530" selectedElement="_M9Mr8DPWEe-FfKLac8KCPQ" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_M9Mr8DPWEe-FfKLac8KCPQ" containerData="5000" selectedElement="_upCTOjOXEe-mJLhdCFyCNg">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_M9Mr8DPWEe-FfKLac8KCPQ" containerData="5000" selectedElement="_upCTOzOXEe-mJLhdCFyCNg">
                 <children xsi:type="advanced:Placeholder" xmi:id="_upCTOjOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.editorss" containerData="6856" ref="_upCVhjOXEe-mJLhdCFyCNg"/>
                 <children xsi:type="basic:PartStack" xmi:id="_upCTOzOXEe-mJLhdCFyCNg" elementId="bottom" containerData="3144" selectedElement="_upCTQDOXEe-mJLhdCFyCNg">
                   <tags>org.eclipse.e4.secondaryDataStack</tags>
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_upCTPDOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.views.ProblemView" ref="_upCV7DOXEe-mJLhdCFyCNg" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -363,7 +364,6 @@
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_upCVhjOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.editorss" selectedElement="_upCVhzOXEe-mJLhdCFyCNg">
       <children xsi:type="basic:PartStack" xmi:id="_upCVhzOXEe-mJLhdCFyCNg" elementId="PartStack@19d5cfd6" selectedElement="_-c2JMDSLEe-7xOzMbQT_Dg">
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_1nCmIDSLEe-7xOzMbQT_Dg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Book.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Book.java&quot; partName=&quot;Book.java&quot; title=&quot;Book.java&quot; tooltip=&quot;05-librarymanagement-app/src/com/monocept/solution/model/Book.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/05-librarymanagement-app/src/com/monocept/solution/model/Book.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;683&quot; selectionTopPixel=&quot;131&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -413,12 +413,10 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_-c2JMDSLEe-7xOzMbQT_Dg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LibraryManagementTest.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LibraryManagementTest.java&quot; partName=&quot;LibraryManagementTest.java&quot; title=&quot;LibraryManagementTest.java&quot; tooltip=&quot;05-librarymanagement-app/src/com/monocept/solution/test/LibraryManagementTest.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/05-librarymanagement-app/src/com/monocept/solution/test/LibraryManagementTest.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1204&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LibraryManagementTest.java&quot; partName=&quot;LibraryManagementTest.java&quot; title=&quot;LibraryManagementTest.java&quot; tooltip=&quot;05-librarymanagement-app/src/com/monocept/solution/test/LibraryManagementTest.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/05-librarymanagement-app/src/com/monocept/solution/test/LibraryManagementTest.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2503&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_miMpwDSSEe-7xOzMbQT_Dg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BookReturningService.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BookReturningService.java&quot; partName=&quot;BookReturningService.java&quot; title=&quot;BookReturningService.java&quot; tooltip=&quot;05-librarymanagement-app/src/com/monocept/solution/model/BookReturningService.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/05-librarymanagement-app/src/com/monocept/solution/model/BookReturningService.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;439&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -524,6 +522,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_upCV8TOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -639,7 +639,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_upCWNDOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9WkN4DScEe-0dfKTSnFZRg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_upEvbjOXEe-mJLhdCFyCNg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vOs-gDSgEe-bnOOi90R9pw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_upEvbjOXEe-mJLhdCFyCNg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_upCWQTOXEe-mJLhdCFyCNg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -679,7 +679,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_upC6WzOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_9WnRMDScEe-0dfKTSnFZRg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_upDksTOXEe-mJLhdCFyCNg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vOwo4DSgEe-bnOOi90R9pw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_upDksTOXEe-mJLhdCFyCNg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_upC6ZjOXEe-mJLhdCFyCNg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3347,7 +3347,7 @@
   <addons xmi:id="_upEw6zOXEe-mJLhdCFyCNg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_upEw7DOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_upEw7TOXEe-mJLhdCFyCNg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_u7dSYTSgEe-bnOOi90R9pw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_upEw7zOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_upEw8DOXEe-mJLhdCFyCNg" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_upEw8TOXEe-mJLhdCFyCNg" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
