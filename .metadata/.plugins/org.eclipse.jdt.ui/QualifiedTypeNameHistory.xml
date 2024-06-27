@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.monocept.solution.model.BookBorrowingService"/>
+<fullyQualifiedTypeName name="com.monocept.solution.model.BookCatalog"/>
+<fullyQualifiedTypeName name="com.monocept.solution.model.BookReturningService"/>
+<fullyQualifiedTypeName name="com.monocept.solution.model.User"/>
+<fullyQualifiedTypeName name="com.monocept.violation.model.Book"/>
+</qualifiedTypeNameHistroy>
