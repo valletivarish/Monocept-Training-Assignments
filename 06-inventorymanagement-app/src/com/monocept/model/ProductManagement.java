@@ -121,7 +121,4 @@ public class ProductManagement {
         return "PROD-" + (int) (Math.random() * 1000);
     }
 
-    public void closeScanner() {
-        scanner.close();
-    }
 }

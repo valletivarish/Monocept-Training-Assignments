@@ -91,11 +91,4 @@ public class TransactionManagement {
         return "TRX-" + (int) (Math.random() * 1000);
     }
 
-    public void closeScanner() {
-        scanner.close();
-    }
-
-    public void shutdownExecutorService() {
-        executorService.shutdown();
-    }
 }

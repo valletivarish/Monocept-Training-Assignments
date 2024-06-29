@@ -112,7 +112,4 @@ public class SupplierManagement {
         return "SUPP-" + (int) (Math.random() * 1000);
     }
 
-    public void closeScanner() {
-        scanner.close();
-    }
 }
