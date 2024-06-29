@@ -8,12 +8,16 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="nextLine();"/>
+			<item value="product"/>
 			<item value="else"/>
 			<item value="scanner.next();"/>
 			<item value="scanner.nextLine();"/>
 			<item value="line"/>
 		</list>
 		<list key="replacehistory">
+			<item value="next();"/>
+			<item value="supplier"/>
 			<item value=""/>
 		</list>
 	</section>
