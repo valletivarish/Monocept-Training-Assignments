@@ -103,9 +103,10 @@ public class SupplierManagement {
         if (supplier != null) {
             System.out.println("Supplier Details:");
             System.out.println(supplier);
-        } else {
-            System.out.println("Supplier with ID " + supplierId + " not found.");
+            return;
         }
+         System.out.println("Supplier with ID " + supplierId + " not found.");
+
     }
 
     private String generateSupplierId() {

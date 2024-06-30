@@ -67,7 +67,9 @@ public class Inventory {
     public void addSupplier(Supplier supplier) {
         boolean found = false;
         for (Supplier supp : suppliers) {
-            found = true;
+            if(supp.getSupplierID().equals(supplier.getSupplierID())) {
+            	found = true;
+            }
         }
         if (found) {
             throw new DuplicateSuppliers();
