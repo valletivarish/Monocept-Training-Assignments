@@ -125,7 +125,7 @@ public class Inventory {
 
     public void loadData() throws IOException, ClassNotFoundException {
         try {
-            FileInputStream fileInputStream = new FileInputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\test\\Product.txt");
+            FileInputStream fileInputStream = new FileInputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\model\\ProductFile.txt");
             ObjectInputStream object = new ObjectInputStream(fileInputStream);
             while (true) {
                 try {
@@ -151,7 +151,7 @@ public class Inventory {
             }
             object.close();
 
-            fileInputStream = new FileInputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\test\\Supplier.txt");
+            fileInputStream = new FileInputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\model\\SupplierFile.txt");
             object = new ObjectInputStream(fileInputStream);
             while (true) {
                 try {
@@ -177,7 +177,7 @@ public class Inventory {
             object.close();
 
 
-            fileInputStream = new FileInputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\test\\Transaction.txt");
+            fileInputStream = new FileInputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\model\\TransactionFile.txt");
             object = new ObjectInputStream(fileInputStream);
             while (true) {
                 try {
@@ -209,17 +209,17 @@ public class Inventory {
     }
 
     public void saveData() throws IOException {
-        FileOutputStream fileOutputStream = new FileOutputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\test\\Product.txt");
+        FileOutputStream fileOutputStream = new FileOutputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\model\\ProductFile.txt");
         ObjectOutputStream file = new ObjectOutputStream(fileOutputStream);
         for (Product product : products) {
             file.writeObject(product);
         }
-        fileOutputStream = new FileOutputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\test\\Supplier.txt");
+        fileOutputStream = new FileOutputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\model\\SupplierFile.txt");
         file = new ObjectOutputStream(fileOutputStream);
         for (Supplier supplier : suppliers) {
             file.writeObject(supplier);
         }
-        fileOutputStream = new FileOutputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\test\\Transaction.txt");
+        fileOutputStream = new FileOutputStream("D:\\Monocept-Training-Assignments\\06-inventorymanagement-app\\src\\com\\monocept\\model\\TransactionFile.txt");
         file = new ObjectOutputStream(fileOutputStream);
         for (Transaction transaction : transactions) {
             file.writeObject(transaction);
