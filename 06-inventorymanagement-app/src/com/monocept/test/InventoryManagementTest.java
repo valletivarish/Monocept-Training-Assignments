@@ -68,11 +68,8 @@ public class InventoryManagementTest {
             System.out.println("Error: " + e.getMessage());
         } catch (DuplicateSuppliers e) {
             System.out.println("Error: " + e.getMessage());
-<<<<<<< HEAD
         }
-=======
         } 
->>>>>>> 44ae7ffdf1dc675c17227fa93a0b52eeb2ced738
     }
 
     private static void generateReports(Inventory inventory) {
