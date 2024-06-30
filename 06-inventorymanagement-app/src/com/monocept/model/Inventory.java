@@ -201,6 +201,7 @@ public class Inventory {
                     break;
                 }
             }
+            System.out.println("Loaded the data from file successfully");
             object.close();
 
         } catch (FileNotFoundException e) {
@@ -224,7 +225,7 @@ public class Inventory {
         for (Transaction transaction : transactions) {
             file.writeObject(transaction);
         }
-
+        System.out.println("Saved the data in file successfully");
     }
 
     public void generateReports() {
