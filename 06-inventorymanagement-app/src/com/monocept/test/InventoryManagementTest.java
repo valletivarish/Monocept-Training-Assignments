@@ -68,8 +68,6 @@ public class InventoryManagementTest {
             System.out.println("Error: " + e.getMessage());
         } catch (DuplicateSuppliers e) {
             System.out.println("Error: " + e.getMessage());
-        } finally {
-            scanner.close();
         }
     }
 
