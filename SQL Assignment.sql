@@ -56,7 +56,7 @@
     
 -- 18. Display what jobs are there for each department and number of employees for each job
 	select DEPTNO,JOB,count(*) as No_Of_Employees from emp group by JOB,DEPTNO order by DEPTNO;
-    select d.DNAME, e.JOB, count(*) as No_Of_Employees from emp e join dept d on e.DEPTNO=d.DEPTNO group by e.JOB, d.DNAME;
+	select d.DNAME, e.JOB, count(*) as No_Of_Employees from emp e join dept d on e.DEPTNO=d.DEPTNO group by e.JOB, d.DNAME;
 
 -- 19. Display how many employees are there for each department
 	select count(*) as No_Of_Employees , DEPTNO as Dept_No from emp group by DEPTNO;
