@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="com.monocept.solution.model.User"/>
 <fullyQualifiedTypeName name="com.monocept.violation.model.Book"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.monocept.execeptions.DuplicateSuppliers"/>
 <fullyQualifiedTypeName name="com.monocept.model.ProductManagement"/>
 <fullyQualifiedTypeName name="com.monocept.model.TranasactionManagement"/>
@@ -28,4 +27,9 @@
 <fullyQualifiedTypeName name="com.monocept.exceptions.InvalidProductId"/>
 <fullyQualifiedTypeName name="com.monocept.exceptions.DuplicateSuppliers"/>
 <fullyQualifiedTypeName name="com.monocept.exceptions.InvalidSupplierId"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.monocept.model.LeastRecentlyUsed"/>
+<fullyQualifiedTypeName name="com.monocept.model.LeastFrequentlyUsed"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
