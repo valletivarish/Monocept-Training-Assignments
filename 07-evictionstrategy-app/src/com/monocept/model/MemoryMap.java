@@ -26,7 +26,7 @@ public class MemoryMap implements IEvictionStrategy{
 		if(memoryMap.size()>=3) {
 			operation(memoryMap,readingOrder);
 		}
-		memoryMap.put(key, value);
+		memoryMap.put(key, value); 
 	}
 	@Override
 	public String toString() {

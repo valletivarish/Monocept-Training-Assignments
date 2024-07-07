@@ -45,6 +45,7 @@ public class EvictionStrategyTest {
 		memoryMap.get("a");
 		memoryMap.get("a");
 		memoryMap.get("c");
+		memoryMap.get("c");
 		memoryMap.get("a");
 		memoryMap.put("d", 0);
 		
